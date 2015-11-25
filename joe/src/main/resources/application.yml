@@ -1,0 +1,14 @@
+server:
+    port: 8000
+
+power:
+    interval: 1000
+
+oxygen:
+    reductionUriMap:
+        normal: http://localhost:9000/oxygen
+        premium: http://localhost:9001/oxygen
+    type: normal
+
+logging:
+    file: joe.log

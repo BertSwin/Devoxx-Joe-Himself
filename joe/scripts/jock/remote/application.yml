@@ -1,0 +1,14 @@
+server:
+    port:  8001
+
+power:
+    interval: 1000
+
+oxygen:
+    reductionUriMap:
+        normal: http://o2normal.xploregroup.net/oxygen
+        premium: http://o2premium.xploregroup.net/oxygen
+    type: premium
+
+logging:
+    file: jock.log

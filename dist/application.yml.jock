@@ -1,0 +1,14 @@
+server:
+    port: 30002
+
+power:
+    interval: 1000
+
+oxygen:
+    reductionUriMap:
+        normal: http://o2normal.sangilak.com/oxygen
+        premium: http://o2premium.sangilak.com/oxygen
+    type: normal
+
+logging:
+    file: joe.log

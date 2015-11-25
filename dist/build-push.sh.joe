@@ -1,0 +1,2 @@
+docker build -t trescst/devoxx-joe-joe -f Dockerfile.joe .
+docker push trescst/devoxx-joe-joe

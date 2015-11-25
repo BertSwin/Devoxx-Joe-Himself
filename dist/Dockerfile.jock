@@ -1,0 +1,10 @@
+FROM jeanblanchard/java:8 
+
+ADD devoxx-joe-himself-0.0.1-SNAPSHOT.jar /dist/devoxx-joe-himself-0.0.1-SNAPSHOT.jar
+ADD application.yml.jock /dist/application.yml
+
+WORKDIR /dist
+
+EXPOSE 30001
+
+ENTRYPOINT java -jar devoxx-joe-himself-0.0.1-SNAPSHOT.jar
